@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Filmes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            height: 400px;
+            text-align: center;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        td{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        td.M{
+            background-color: pink;
+        }
+        td.H{
+            background-color: blue;
+            color: white;
+        }
+        td.F{
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+        }
+        td.C{
+            background-color: rgb(202, 200, 200);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela Filmes</h1>
+    <table>
+        <tr>
+            <td class="C">Grupo</td>
+            <td class="C">Nomes</td>
+            <td colspan="3" class="F">Filmes</td>
+            
+            
+        </tr>
+        <tr>
+            <td rowspan="3" class="M">Mulheres</td>
+            <td class="M">Ana</td>
+            <td class="F">Alien</td>
+
+            <td class="F">Rambo</td>
+            <td class="F">Vingadores</td>
+            
+            
+            
+            
+        </tr>
+        <tr>
+            <td class="M">Beatriz</td>
+            <td class="F">Hulk</td>
+            <td class="F">Inception</td>
+            <td class="F">Batman</td>
+            
+        </tr>
+        <tr>
+            <td class="M">Claudia</td>
+            <td class="F">Oblivion</td>
+            <td class="F">Matrix</td>
+            <td class="F">Big Hero</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="3" class="H">Homens</td>
+            <td class="H">Bruno</td>
+            <td class="F">Intocáveis</td>
+            <td class="F">Amnésia</td>
+            <td class="F">Gladiador</td>
+        </tr>
+        <tr>
+            <td class="H">Daniel</td>
+            <td class="F">Wall-e</td>
+            <td class="F">OldBoy</td>
+            <td class="F">Dangal</td>
+            
+        </tr>
+        <tr>
+            <td class="H">Fabiano</td>
+            <td class="F">Star Wars</td>
+            <td class="F">Taxi</td>
+            <td class="F">ToyStory</td>
+            
+        </tr>
+        
+    </table>
+</body>
+</html>
